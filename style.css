@@ -76,7 +76,14 @@
 
 
 
-
+    @keyframes animate-fade {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
 
 .content {
     max-width: 500px;
@@ -84,11 +91,22 @@
     padding: 10px;
     font-family: 'Ubuntu Mono', monospace;
 
+    animation-duration: 0.7s;
+    animation-name: animate-fade;
+    animation-delay: 0.7s;
+    animation-fill-mode: backwards;
+
+}
+
+.picture{
+  padding-left: 3%;
+  border-radius: 20%;
 }
 
 body {
     background-color: burlywood;
     flex-direction: column;
+    
 
 }
 

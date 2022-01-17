@@ -61,11 +61,37 @@ body {
     flex-direction: column;
 
 }
+
+.picture{
+  animation-duration: 0.5s;
+  animation-name: animate-fade;
+  animation-delay: 0.5s;
+  animation-fill-mode: backwards;
+
+  padding-left:106;
+
+}
+
+@keyframes animate-fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
 .content {
     max-width: 500px;
     margin: auto;
     padding: 10px;
     font-family: 'Ubuntu Mono', monospace;
+
+    animation-duration: 0.7s;
+  animation-name: animate-fade;
+  animation-delay: 0.7s;
+  animation-fill-mode: backwards;
   
 
 }
@@ -91,6 +117,10 @@ p {
 
 footer{
   font-family: 'Ubuntu Mono',;
+  animation-duration: 0.9s;
+  animation-name: animate-fade;
+  animation-delay: 0.9s;
+  animation-fill-mode: backwards;
    
   margin: 10%;
   
