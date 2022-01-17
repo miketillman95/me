@@ -70,7 +70,9 @@ body {
 
 }
 
-blockquote {
+
+/* block quote section  */
+p {
     font-style:italic;
     line-height:32px;
     font-size:20px;
@@ -81,23 +83,11 @@ blockquote {
     border-radius: 5px;
     }
 
-    blockquote:before,
-    blockquote:after {
-    position: relative;
-    vertical-align: middle;
-    font-family: 'Ubuntu Mono', monospace;
-    font-size: 56px;
-    font-weight: 700;
-    line-height: 0;
-    color: #FBC02D;
-    }
-    blockquote:before {
-    left: -5px;
-    content: '\201C';
-    }
-    blockquote:after {
-    content: '\201D';
-    }
+   
+
+
+
+
 
 footer{
   font-family: 'Ubuntu Mono',;
