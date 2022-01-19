@@ -56,6 +56,11 @@
   } */
 
   /* new code */
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
   body {
     font-family: 'Josefin Sans', sans-serif;
 }
@@ -158,9 +163,9 @@ body {
   animation-delay: 0.5s;
   animation-fill-mode: backwards;
 
-  padding-left:151;
-  padding-bottom: 25px;
-  padding-top: 80;
+  padding-left:200px;
+  padding-bottom: 5px;
+  padding-top: 20;
   
 
 }

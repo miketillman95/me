@@ -58,7 +58,11 @@
     }
   } */
 
- 
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
   body {
     font-family: 'Josefin Sans', sans-serif;
 }
@@ -154,9 +158,9 @@
     }
    
     .developer-name{
-      margin: auto;
+      /* margin: auto;
       width: 80%;
-      height: 54px;
+      height: 54px; */
       padding-left:65px;
      
     }
@@ -165,7 +169,8 @@
   .full-stack{
     margin: auto;
     width: 60%;
-    padding-left:37px;
+    padding-left:10px;
+    padding-top: 15;
   }
   h1{
     font-size:60
