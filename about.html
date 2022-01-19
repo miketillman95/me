@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <head>
-    <link rel = 'stylesheet' href = './style.about.scss'>
+    <link rel = 'stylesheet' href = './style.about.css'>
     
 </head>
 
@@ -24,34 +24,31 @@
     </div>
 </div> -->
 
-<header> 
-    <div class="content">
-      
-      <a class="logo" href="#"></a>
-      <div class="toggler"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></div>
-      
-      <!-- Start Navigation -->
-      <nav>
-        <ul>
-                  <!-- <li><a href="index.html" class="active">Home</a></li> -->
-                  <li><a href="index.html" class='active'>Home</a></li>
-                  <li><a href='https://github.com/miketillman95' style= 'text-decoration: none'> Projects </a> </li>
-                  <li><a href='https://docs.google.com/document/d/1Ow-vjSC-hTmxOChU9gfIlUVpnn6BVZdS/edit?usp=sharing&ouid=103905365095766595067&rtpof=true&sd=true' style= 'text-decoration: none'> My resume </a></li>
-                  <li><a href="mailto:matillman95@gmail.com" style='text-decoration: none'>Contact me</a></li>
-                  
-              </ul>
-                  
-        <!-- Side navigation on desktop -->
-              <div class="side-nav">
-                  <a href="https://twitter.com/mikeatillman"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                  <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                  <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-          </div>
-      </nav>
-      
-    </div> 
-  </header>
 
+<nav class="navbar">
+    <span class="navbar-toggle" id="js-navbar-toggle">
+        <i class="fas fa-bars"></i>
+    </span>
+    <a href="#" class="logo"></a>
+    <ul class="main-nav" id="js-menu">
+        <li>
+            <a href="index.html" class="nav-links">Home</a>
+        </li>
+        <li>
+            <a class= 'nav-links'href='https://docs.google.com/document/d/1Ow-vjSC-hTmxOChU9gfIlUVpnn6BVZdS/edit?usp=sharing&ouid=103905365095766595067&rtpof=true&sd=true' style= 'text-decoration: none'> My resume </a> 
+
+        </li>
+        <li>
+            <a class= 'nav-links'href='https://github.com/miketillman95' style= 'text-decoration: none'> Projects </a> 
+        </li>
+        <li>
+            <a class='nav-links'href='https://twitter.com/mikeatillman' style= 'text-decoration: none' > Follow Me on Twitter </a> 
+        </li>
+        <li>
+            <a class='nav-links' href="mailto:matillman95@gmail.com" style='text-decoration: none' class='active'>Contact me</a>    </div>
+        </li>
+    </ul>
+</nav>
 
 
 
