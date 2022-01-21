@@ -1,6 +1,6 @@
  .topnav {
      position: relative;
-    background-color: #7182e2;
+    background-color: #333;
     overflow: hidden;
   } 
   *{
@@ -58,7 +58,10 @@
       left: 0;
       transform: none;
     }
-  } 
+  }
+  body {
+    font-family: "Josefin Sans", sans-serif;
+  }
 
   /* new code */
   /* * {
@@ -212,8 +215,8 @@ p {
     line-height:32px;
     font-size:20px;
     color: black;
-    background: #7182e2;
-    margin:10px;
+    background: #9e9fa8;
+    /* margin:10px; */
     padding: 15px 20px 15px 20px;
     border-radius: 5px;
     }
