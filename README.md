@@ -1,4 +1,4 @@
 # mike-tillman
 website
 
-server: http-server
+Simple HTML & CSS landing page 
