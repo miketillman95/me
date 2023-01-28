@@ -51,7 +51,7 @@
   } 
   
   /* Right-aligned section inside the top navigation */
-   .topnav-right {
+  .topnav-right {
     float: right;
     
   } 
@@ -73,21 +73,12 @@
   body {
     font-family: "Josefin Sans", sans-serif;
   }
-
-
-
-
-
-
     .picture{
       padding-left: 20;
       padding-top: 50;
     }
-   
     .developer-name{
-     
       padding-left:85px;
-     
     }
 
     
