@@ -1,40 +1,65 @@
-<head>
-    <title>Mike Tillman</title>
-    <meta charset ='utf-8'/>
-    <meta name = 'description' content= 'ffull-stack developer, software engineer, backend, frontend, human'/>
-    <meta content = 'Mike Tillman' name= 'keywords, dveloper, javascript, react, node, python, css, html'/>
-    <meta name= 'author' content= 'Mike Tillman'/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel = 'stylesheet' href = './style.css'>
-    <link rel="icon" type="image/png" href="./photos/yin&yang.png "/>
-</head>
+<html>
+    <head>
+        <title>Mike Tillman</title>
+        <meta charset ='utf-8'/>
+        <meta name = 'description' content= 'ffull-stack developer, software engineer, backend, frontend, human'/>
+        <meta content = 'Mike Tillman' name= 'keywords, dveloper, javascript, react, node, python, css, html'/>
+        <meta name= 'author' content= 'Mike Tillman'/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel = 'stylesheet' href = './style.css'>
+        <link rel="icon" type="image/png" href="./photos/yin&yang.png "/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
 
+    <!-- <div class="topnav">
+        <div id="myLinks">
+            <div class="topnav-centered">
+                <a href="mailto:matillman95@gmail.com" style='text-decoration: none' class='active'>Contact me</a>
+            </div>
+            <a href='https://twitter.com/mikeatillman' style= 'text-decoration: none' > Follow Me on Twitter </a> 
+            <a href='https://project-ap.herokuapp.com/' style= 'text-decoration: none'> Projects </a> 
+            <a href='https://github.com/miketillman95' style= 'text-decoration: none'> Github </a> 
+            <div class="topnav-right">
+                <a href='https://docs.google.com/document/d/1Ow-vjSC-hTmxOChU9gfIlUVpnn6BVZdS/edit?usp=sharing&ouid=103905365095766595067&rtpof=true&sd=true' style= 'text-decoration: none'> My resume </a> 
+                <a href="about.html">About</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="toggle()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </div> -->
 <div class="topnav">
-    <div class="topnav-centered">
-        <a href="mailto:matillman95@gmail.com" style='text-decoration: none' class='active'>Contact me</a>
-    </div>
-    <a href='https://twitter.com/mikeatillman' style= 'text-decoration: none' > Follow Me on Twitter </a> 
-    <a href='https://project-ap.herokuapp.com/' style= 'text-decoration: none'> Projects </a> 
-    <a href='https://github.com/miketillman95' style= 'text-decoration: none'> Github </a> 
-    <div class="topnav-right">
-        <a href='https://docs.google.com/document/d/1Ow-vjSC-hTmxOChU9gfIlUVpnn6BVZdS/edit?usp=sharing&ouid=103905365095766595067&rtpof=true&sd=true' style= 'text-decoration: none'> My resume </a> 
+    <a href="/" class="active">Home</a>
+    <div id="myLinks">
+        <a href='https://twitter.com/mikeatillman' class="fa fa-twitter" style= 'color: #5DADE2'> </a> 
+        <a href='https://github.com/miketillman95' class="fa fa-github"></a> 
+        <a href='https://project-ap.herokuapp.com/' style= 'color: grey'> Projects </a> 
+        <a href='https://docs.google.com/document/d/1Ow-vjSC-hTmxOChU9gfIlUVpnn6BVZdS/edit?usp=sharing&ouid=103905365095766595067&rtpof=true&sd=true' style= 'color: burlywood'> Resume </a> 
         <a href="about.html">About</a>
     </div>
+    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+    <a href="javascript:void(0);" class="icon" onclick="toggle()">
+        <i class="fa fa-bars"></i>
+    </a>
 </div>
 
-<div class='content3'>
-    <div class='picture'>
-        <img src='./photos/featured_art_history_illusion_glennharvey.jpeg' width= 95% border= 1.5px style='border-radius:50%' alt= 'person touching cascading mirror'>
+    <script src="toggle.js"></script>
+    
+
+    <div class='content3'>
+        <div class='picture'>
+            <img src='./photos/featured_art_history_illusion_glennharvey.jpeg' width= 95% border= 1.5px style='border-radius:50%' alt= 'person touching cascading mirror'>
+        </div>
+        <div class="developer-name">
+            <h1>Mike Tillman</h1>
+        </div>
+        <div class = 'full-stack'>
+            <h3></h3>
+        </div>
+        <div>
+            <p> Hello world,<br> I am a Technologist that is passionate about learning, data, creating, engineering and wanting to make an impact on the world. 
+            If any of those things interest you, let's connect on Twitter or if you have an opportunity available please feel free to <a href="mailto:matillman95@gmail.com" style ='text-decoration: none'>reach out!</a>
+            </p>
+        </div>
     </div>
-    <div class="developer-name">
-        <h1>Mike Tillman</h1>
-    </div>
-    <div class = 'full-stack'>
-        <h3></h3>
-    </div>
-    <div>
-        <p> Hello world,<br> I am a Technologist that is passionate about learning, data, creating, engineering and wanting to make an impact on the world. 
-        If any of those things interest you, let's connect on Twitter or if you have an opportunity available please feel free to <a href="mailto:matillman95@gmail.com" style ='text-decoration: none'>reach out!</a>
-        </p>
-    </div>
-</div>
+</html>
