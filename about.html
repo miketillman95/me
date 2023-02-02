@@ -10,20 +10,33 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-<div class="topnav">
-    <a href="/" class="active">Home</a>
-    <div id="myLinks">
-        <a href='https://twitter.com/mikeatillman' class="fa fa-twitter" style= 'color: #5DADE2'> </a> 
-        <a href='https://github.com/miketillman95' class="fa fa-github"></a> 
-        <a href='https://project-ap.herokuapp.com/' style= 'color: grey'> Projects </a> 
-        <a href='https://docs.google.com/document/d/1Ow-vjSC-hTmxOChU9gfIlUVpnn6BVZdS/edit?usp=sharing&ouid=103905365095766595067&rtpof=true&sd=true' style= 'color: burlywood'> Resume </a> 
-        <a href="about.html">About</a>
-    </div>
-    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-    <a href="javascript:void(0);" class="icon" onclick="toggle()">
-        <i class="fa fa-bars"></i>
-    </a>
-</div>
+<header class="header">
+    <nav class="navbar">
+        <a href="/" class="nav-logo">Home</a>
+        <ul class="nav-menu">
+            <li class="nav-item">
+                <a href='https://github.com/miketillman95' class="fa fa-github" class="nav-link" style= 'color:  white; font-size: 25px;'></a>
+            </li>
+            <li class="nav-item">
+                <a href='https://twitter.com/mikeatillman' class="fa fa-twitter class="nav-link style= 'color: #5DADE2; font-size: 25px;'></a>
+            </li>
+            <li class="nav-item">
+                <a href='https://project-ap.herokuapp.com/' style= 'color: grey' class="nav-link">Projects</a>
+            </li>
+            <li class="nav-item">
+                <a href= 'https://docs.google.com/document/d/1Ow-vjSC-hTmxOChU9gfIlUVpnn6BVZdS/edit?usp=sharing&ouid=103905365095766595067&rtpof=true&sd=true' style= 'color: grey' class="nav-link">Resume</a>
+            </li>
+            <li class="nav-item">
+                <a href="about.html" class="nav-link" style= 'color: grey'>About</a>
+            </li>
+        </ul>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+</header>
 
 <script src="toggle.js"></script>
 
