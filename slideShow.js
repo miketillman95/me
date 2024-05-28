@@ -20,6 +20,6 @@ function showSlides() {
 }
 
 // Call showSlides function after DOMContentLoaded
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", () => {
     showSlides();
 });
