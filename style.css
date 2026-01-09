@@ -119,17 +119,18 @@ p {
   line-height:32px;
   font-size:20px;
   color: black;
-  background: #9e9fa8;
+  background: #E9EEF5;
   margin:10px;
   padding: 15px 20px 15px 20px;
   border-radius: 5px;
+  border: 3px solid #cad3de;
   
 }
 
 
 
 body {
-    background-color: burlywood;
+    background-color: #EEF2F7;
 }
 /* Body  */
 
@@ -142,10 +143,11 @@ body {
     
     .nav-menu {
       position: fixed;
+      background-color: #d5d7da;
+      color: #1F2937;
       left: -100%;
       top: 5rem;
       flex-direction: column;
-      background-color: burlywood;
       width: 100%;
       border-radius: 10px;
       text-align: center;

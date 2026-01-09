@@ -76,7 +76,7 @@ color: grey;
 /* Body */
 body {
   font-family: "Josefin Sans", sans-serif;
-  background-color: burlywood;
+  background-color: #EEF2F7;
   flex-direction: column;
 }
 
@@ -120,10 +120,12 @@ p {
   line-height:32px;
   font-size:20px;
   color: black;
-  background: #9e9fa8;
-  /* margin:10px; */
+  background: #E9EEF5;
   padding: 15px 20px 15px 20px;
   border-radius: 5px;
+  border: 3px solid #cad3de;
+
+  
 }
 
   /* Body */
@@ -137,7 +139,8 @@ p {
     left: -100%;
     top: 5rem;
     flex-direction: column;
-    background-color: burlywood;
+    background-color: #d5d7da;
+    color: #1F2937;
     width: 100%;
     border-radius: 10px;
     text-align: center;
