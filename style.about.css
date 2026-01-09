@@ -139,8 +139,6 @@ p {
     left: -100%;
     top: 5rem;
     flex-direction: column;
-    background-color: #d5d7da;
-    color: #1F2937;
     width: 100%;
     border-radius: 10px;
     text-align: center;
@@ -150,7 +148,9 @@ p {
 }
 
   .nav-menu.active {
-      left: 0;
+    background-color: #d5d7da;
+    color: #1F2937;
+    left: 0;
 }
 
   .nav-item {
