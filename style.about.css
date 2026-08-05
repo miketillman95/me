@@ -117,6 +117,7 @@ width:95%
 /* block quote section  */
 p {
   font-style:italic;
+  max-width: 300%;
   line-height:32px;
   font-size:20px;
   color: black;

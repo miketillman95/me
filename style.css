@@ -114,6 +114,20 @@ a {
     animation-fill-mode: backwards;
 
 }
+.content3b {
+    max-width: 200px;
+    font-size: 8px;
+    margin: auto;
+    padding: 10px;
+    /* padding-top: ; */
+    font-family: 'Ubuntu Mono', monospace;
+
+    animation-duration: 0.7s;
+    animation-name: animate-fade;
+    animation-delay: 0.7s;
+    animation-fill-mode: backwards;
+
+}
 
 p {
   line-height:32px;
